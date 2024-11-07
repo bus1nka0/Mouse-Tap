@@ -12,7 +12,7 @@
         android:layout_width="238dp"
         android:layout_height="60dp"
         android:onClick="TapShop"
-        android:text="Вывести деньги"
+        android:text="Withdraw cash"
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,19 +30,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663"
+        app:layout_constraintVertical_bias="0.551"
         app:srcCompat="@drawable/mouse_default" />
 
     <TextView
         android:id="@+id/TapCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вы тапнули 0 раз"
+        android:text="You click 0 times"
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838" />
+        app:layout_constraintVertical_bias="0.839" />
+
+    <Button
+        android:id="@+id/Reset_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="548dp"
+        android:onClick="Reset"
+        android:text="Reset"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reset_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="484dp"
+        android:onClick="LevelUp"
+        android:text="Level Up"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

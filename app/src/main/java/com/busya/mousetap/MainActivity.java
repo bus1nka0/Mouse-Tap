@@ -11,9 +11,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
 public class MainActivity extends AppCompatActivity {
     int counter = 0;
+    int x = 1;
     TextView textCounter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,22 +37,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void TapMouse(View view) {
-        String y;
-        int lastTwoDigits = counter % 100;
-        int lastDigit = counter % 10;
-        if (lastTwoDigits >= 11 && lastTwoDigits <= 14) {
-            y = " раз"; // For numbers 11-14
-        } else if (lastDigit == 1) {
-            y = " раз"; // For numbers ending in 1 (except 11)
-        } else if (lastDigit >= 2 & lastDigit <= 4 && (lastTwoDigits < 10 || lastTwoDigits >= 20)) {
-            y = " раза"; // For numbers ending in 2, 3, or 4 (except 12-14)
-        } else {
-            y = " раз"; // Default case for other numbers
-        }
-        counter += 1;
-        String s = "Вы тапнули " + counter + y;
+        counter += x;
+        String s = "You click " + counter + " times";
         textCounter.setText(s);
 
+
+    }
+
+    public void Reset(View view) {
+        counter = 0;
+        x = 1;
+        String s = "You click " + counter + "times";
+        textCounter.setText(s);
+
+    }
+
+    public void LevelUp(View view) {
+        x +=2;
+        String s = "Now you click" + x + " per one tap";
+        textCounter.setText(s);
 
     }
 }
