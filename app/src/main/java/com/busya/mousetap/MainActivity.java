@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void LevelUp(View view) {
         x +=2;
-        String s = "Now you click" + x + " per one tap";
+        String s = "Now you click " + x + " per one tap";
         textCounter.setText(s);
 
     }
