@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     public void Reset(View view) {
         counter = 0;
         x = 1;
-        String s = "You click " + counter + "times";
+        String s = "You click " + counter + " times";
         textCounter.setText(s);
 
     }
