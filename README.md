@@ -1,1 +1,3 @@
-Mouse Tap![1000016939](https://github.com/user-attachments/assets/35f77056-e92d-4e6b-9335-dd7e4284a815)
+Mouse Tap
+
+![output-onlinejpgtools(1)](https://github.com/user-attachments/assets/6fb9a445-7502-4f89-9b0b-e98d97eadc48)
