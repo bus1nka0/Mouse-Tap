@@ -9,17 +9,18 @@
 
     <Button
         android:id="@+id/ShopButton"
-        android:layout_width="238dp"
-        android:layout_height="60dp"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:foreground="@drawable/_89715"
         android:onClick="TapShop"
         android:text="Withdraw cash"
-        android:textSize="60px"
+        android:textSize="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922" />
+        app:layout_constraintVertical_bias="0.818" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -30,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551"
+        app:layout_constraintVertical_bias="0.84"
         app:srcCompat="@drawable/mouse_default" />
 
     <TextView
@@ -43,30 +44,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839" />
+        app:layout_constraintVertical_bias="0.814" />
 
     <Button
         android:id="@+id/Reset_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="548dp"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="544dp"
+        android:foreground="@drawable/_578838"
         android:onClick="Reset"
         android:text="Reset"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/reset_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="484dp"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="544dp"
+        android:foreground="@drawable/_708069"
         android:onClick="LevelUp"
         android:text="Level Up"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
